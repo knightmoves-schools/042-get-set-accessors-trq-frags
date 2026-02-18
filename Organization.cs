@@ -6,4 +6,8 @@ public class Organization{
    public Organization(string name){
       Name = name;
    }
+
+   public string GetName(){
+      return Name;
+   }
 }
